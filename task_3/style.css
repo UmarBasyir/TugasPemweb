@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    background-color: #ff83c3;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position :absolute;
+    left: 0;
+    top: 120px;
+    bottom: 0;
+    width: 200px;
+    height: 810px;
+    background-color: #ac5a84;
+    padding: 10px;
+}
+
+#main {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #e4abffad;
+    min-height: 400px;
+}
+
+footer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ff83c3;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsif untuk tablet */
+@media screen and (max-width: 768px) {
+    nav {
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 0;
+    }
+
+    #main {
+        margin-left: 0;
+        padding: 10px;
+    }
+}
+
+/* Responsif untuk mobile */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    #main {
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
